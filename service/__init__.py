@@ -1,6 +1,7 @@
 
 from flask import Flask
 from flask_cors import CORS
+from flask_talisman import Talisman
 
 from service.routes import accounts_bp
 
@@ -8,7 +9,14 @@ from service.routes import accounts_bp
 def create_app():
     """Create and configure the Flask application."""
     app = Flask(__name__)
+
     CORS(app)
+    Talisman(
+        app,
+        content_security_policy=None,
+        force_https=False
+    )
+
     app.register_blueprint(accounts_bp)
 
     @app.route("/")
