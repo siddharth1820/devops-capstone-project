@@ -1,34 +1,19 @@
 
-# Customer Accounts Microservice
+# DevOps Capstone Project
 
-This project implements a RESTful Customer Accounts microservice as part of the DevOps Capstone Assignment.
+Customer Accounts Microservice
 
-## Build Status
+[![Build Status](https://github.com/YOUR_GITHUB_USERNAME/devops-capstone-project/actions/workflows/ci-build.yaml/badge.svg)](https://github.com/YOUR_GITHUB_USERNAME/devops-capstone-project/actions/workflows/ci-build.yaml)
 
-![Build Status](https://github.com/siddharth1820/customer-accounts/actions/workflows/ci-build.yaml/badge.svg)
+## Overview
+
+This project implements a Customer Accounts microservice as part of the DevOps Capstone Project.
 
 ## Features
 
-- Create a customer account
-- Read an account by ID
-- List all accounts
-- Update an account
-- Delete an account
-- Automated testing and code quality checks
+- RESTful API for customer accounts
+- Automated unit testing
 - Continuous Integration using GitHub Actions
 - Security headers and CORS policies
 - Docker containerization
 - Kubernetes deployment
-- Continuous Deployment using Tekton
-
-## Technology Stack
-
-- Python and Flask
-- GitHub Actions
-- Docker
-- Kubernetes
-- Tekton
-
-## Project Status
-
-Development in progress.
