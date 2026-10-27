@@ -6,3 +6,4 @@ nose
 coverage
 flake8
 pylint
+Flask-Talisman
