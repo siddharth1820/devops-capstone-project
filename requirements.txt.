@@ -1,0 +1,7 @@
+
+Flask
+Flask-RESTX
+nose
+coverage
+flake8
+pylint
